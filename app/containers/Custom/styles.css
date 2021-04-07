@@ -1,0 +1,75 @@
+.customContainer {
+  flex: 10;
+  display: flex;
+  background-color: #edefed;
+  flex-direction: column;
+}
+
+.customContainer__editor {
+  flex: 24;
+  display: flex;
+}
+
+.customContainer__preview {
+  flex: 18;
+  display: flex;
+}
+
+.customContainer__editorWindow {
+  flex: 10;
+  display: flex;
+}
+
+.customContainer__editorWindowContainer {
+  margin: 30px;
+  border-radius: 15px;
+  flex: 1;
+  background-color: #FFF;
+  display: flex;
+  box-shadow: #BFBFBE 0 10px 50px;
+  flex-direction: column;
+}
+
+.containerTabContainer {
+  flex: 1;
+  max-height: 50px;
+  background-color: #F1F1F1;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  display: flex;
+}
+
+.containerSubContainer {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  max-height: 50px;
+  border-bottom: 1px solid #EEE;
+}
+
+.containerItemsContainer{
+  flex: 10;
+  overflow: scroll;
+  display: flex;
+}
+
+.containerItemList{
+  margin: 20px;
+  flex: 1;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customContainerContent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.loadingTitle {
+  font-size: 25px;
+  display: block;
+  font-weight: 500;
+}

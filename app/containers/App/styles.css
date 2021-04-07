@@ -1,0 +1,18 @@
+/**
+ * styles.css
+ *
+ * App container styles
+ */
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: 'Helvetica Neue';
+}
+
+input[type='number'] {
+  -moz-appearance:textfield;
+}
